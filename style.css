@@ -1,0 +1,106 @@
+body{
+    background-color: #f9f9f9;
+    font-size: 16px;
+    color: #444;
+    font-family: sans-serif;
+}
+.all{
+    width: 80%;
+    margin: 10px auto;
+}
+
+/* header */
+.head{
+    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5));
+    padding: 20px 10px;
+    border-radius: 5px;
+    border: 1px solid #f0f0f0;
+    margin-bottom: 10px;
+}
+
+.head {
+    text-align: center;
+    color: white;
+
+}
+
+/* menu navigasi */
+.nav{
+    background-color: #87cefa;
+    border: 1px solid #f0f0f0;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.nav ul{
+    list-style: none;
+    overflow: hidden;
+}
+
+.nav ul li{
+    float: right;
+    text-transform: uppercase;
+}
+
+.nav ul li a{
+    text-align: center;
+    display: block;
+    padding: 0 20px;
+    text-decoration: none;
+    color: #2c2c2c;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav ul li a:hover,
+.nav ul li a.hoverover {
+    cursor: pointer;
+    color: #fff;
+}
+
+div.badan{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #f0f0f0;
+    margin-bottom: 10px;
+}
+
+div.halaman{
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.tbl{
+    /* border-collapse: collapse; */
+    width: 80%;
+    margin: auto;
+    text-align: center;  
+}
+
+th{
+    background-color: #2c2c2c;
+    color: white;
+    margin: 10px 0px 10px 10px;
+}
+
+.th1{
+    border-top-left-radius: 5px;
+}
+
+.th2{
+    border-top-right-radius: 5px;
+}
+
+th, td{
+    font-size: 18px;
+    padding: 10px 5px;
+}
+
+img.mage{
+    height: 300px;
+    width: 180px;
+    margin-left: 40%;
+}
